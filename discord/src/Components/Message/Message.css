@@ -1,0 +1,21 @@
+.message {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0px 20px;
+}
+.message_content {
+  padding: 10px;
+}
+.message_content > h3 {
+  font-size: medium;
+  color: rgb(211, 230, 230);
+}
+.message_content > p {
+  font-size: small;
+}
+.message_contentTime {
+  margin: 20px;
+  color: gray;
+  font-size: x-small;
+}

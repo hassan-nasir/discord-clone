@@ -1,0 +1,43 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  background-color: #363a3f;
+  height: 100vh;
+}
+.chat_messages {
+  flex: 1;
+  overflow: scroll;
+}
+.chat_messages::-webkit-scrollbar {
+  display: none;
+}
+.chat_input {
+  color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #474b53;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 20px;
+}
+.chat_input > form > input {
+  background: transparent;
+  color: white;
+  width: 100%;
+  border: none;
+  outline-width: 0;
+  font-size: large;
+  padding: 15px;
+}
+.chat_input > form {
+  flex: 1;
+}
+.chatInput_btn {
+  display: none;
+}
+.chat_inputIcons > .MuiSvgIcon-root {
+  padding: 5px;
+}
